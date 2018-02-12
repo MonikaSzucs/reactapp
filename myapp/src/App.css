@@ -1,0 +1,126 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+img {
+    width: 100px;
+}
+div {
+    padding: 5px;
+}
+
+
+h3 {
+    font-size: 20px;
+    color: #3d464f;
+    background-color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: #d45050;
+}
+
+.tabs {
+    margin: 20px;
+    color: #d45050;
+}
+
+body {
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-color: #d45050;
+}
+
+button {
+    width: 75px;
+    height:30px;
+    background-color: #ccc;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #d45050;
+    color: #eee;
+    
+}
+
+input {
+    width: 100%;
+    height: 30px;
+
+}
+
+.btnArea{
+    width: 100%;
+    align-items: center;
+    flex: auto;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Main span {
+    flex: 1;
+}
+
+.subTitle {
+    align-items: center;
+}
+
+.Area {
+    
+}
+
+.ImagesArea {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.OpenCalc {
+    width: 300px;
+}
+
+.OpenCalc:hover {
+    background-color: #d45050;
+    color: #eee;
+}

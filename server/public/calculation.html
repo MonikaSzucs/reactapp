@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <style>
+            img {
+                width: 50px;
+            }
+            
+            @media only screen and (max-width: 6000px) {
+                .col-sm-2 {
+                    padding: 20px;
+                }
+            }
+            </style>
+    </head>
+    <body>
+       
+<div class="jumbotron text-center">
+  <h1>Assignment 001</h1>
+  <p>Project by Monika Szucs and Hark Grewal</p> 
+    <p>Let's begin Calculating!</p>
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+            <a href="/"><p>Home</p></a>
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-5">
+            <p >Calculator</p>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<div class="container jumbotron">
+  <div class="row">
+    <div class="col-sm-5">
+      <h3>Calculate your purchase</h3>
+        
+      <p>Imagine you have a $50,000 loan. You can type your downpayment amount and and number of month you will take to pay off the rest.</p>
+        
+        <p>Downpayment Amount:</p>
+        <input type="number" step='0.01' min="0" id="DownPayment" onkeypress="return isNumberKey(event);" placeholder="0.00">
+        <!-- Grab the number of months you want to take to pay this off-->
+        <p>Number of Months: </p>
+        <input type="number" min="0" id="Months" name="months" min="1" max="50" placeholder="0">
+        <hr/>
+        <button type="button" onclick="myCalculation()">Submit</button>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-5">
+      <h3>Result: $</h3> 
+       <h1 id="Result"></h1>
+    </div>
+  </div>
+
+</div>
+
+    </body>
+    <script src="crazyjs/newjs.js"></script>
+</html>
